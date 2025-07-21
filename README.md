@@ -4,10 +4,6 @@ A lightweight React app that displays real-time Ethereum gas prices using the [E
 
 ---
 
-## 🎯 Objective
-
-To build a simple, real-time Ethereum gas tracking tool that categorizes gas fees into **Safe Low**, **Standard**, and **Fast** tiers—using data from the Etherscan Gas Oracle API. This helps users optimize the timing and cost of their Ethereum transactions.
-
 ---
 
 ## 🚀 Features
@@ -19,6 +15,11 @@ To build a simple, real-time Ethereum gas tracking tool that categorizes gas fee
 - 🎨 Clean and responsive UI
 
 ---
+
+## 📸 Screenshots
+
+### 📊 Etherium Gas Prices
+![Gas Price](screenshorts/gas_price.png)
 
 ## 🛠️ Tech Stack
 
