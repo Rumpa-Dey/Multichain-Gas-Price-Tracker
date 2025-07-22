@@ -1,0 +1,88 @@
+/* style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container Card */
+.gas-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gas-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Title */
+.gas-card h2 {
+  margin-bottom: 16px;
+  color: #2c3e50;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+.gas-card h3 {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #555;
+}
+
+
+/* Chain Dropdown */
+.gas-card label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #555;
+}
+
+.gas-card select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.gas-card select:focus {
+  border-color: #007bff;
+}
+
+/* Gas Price List */
+.gas-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gas-card li {
+  padding: 10px 0;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.gas-card li:last-child {
+  border-bottom: none;
+}
+
+/* Error Message */
+.gas-card p {
+  font-size: 15px;
+  color: #d63031;
+  margin-top: 10px;
+  text-align: center;
+}
