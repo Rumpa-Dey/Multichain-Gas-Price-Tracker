@@ -129,5 +129,3 @@ Pull requests are welcome. For major changes, open an issue first to discuss wha
 
 This project is licensed under the MIT License.
 
-## 🙋‍♀️ Author
-Made by Rumpa Dey
