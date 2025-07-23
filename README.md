@@ -11,7 +11,7 @@ The **Multichain Gas Price Tracker** is a web-based tool developed using **React
 #### 📌 Core Objectives
 
 -  Fetch and display **live gas prices** (Safe, Proposed, and Fast rates) from selected blockchains using **Etherscan’s V2 API**.
--  Provide  a chain-selectable UI for real-time network fee insights
+-  Provide a chain-selectable interface to fetch and view real-time gas fees
 -  Assist **developers, dApp users, and educators** in making cost-efficient and informed transaction decisions based on current network congestion and fee trends.
 
 ### ✅ Gas Price Tiers
@@ -83,24 +83,24 @@ multichain-gas-tracker/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Rumpa-Dey/ethereum-gas-tracker.git
-cd ethereum-gas-tracker
+git clone https://github.com/Rumpa-Dey/Multichain-Gas-Price-Tracker.git
+cd Multichain-Gas-Price-Tracker
 ```
 ### 2. Install Dependencies
 
 ```bash
 npm install
 ```
-### 3.Configure the API Key
+### 3. Configure the API Key
 
-Create a file named `.env` in the root directory, and add your Etherscan API key:
+Create a `.env` file in the **root directory** of your project and add your Etherscan API key as shown below:
 
 ```env
 REACT_APP_ETHERSCAN_API_KEY=your_api_key_here
 ```
 🧪 You can get a free API key from [Etherscan.io](https://etherscan.io/myapikey)
 
-✅ Use the same key for Polygon/BSC since it's now Multichain enabled.
+✅ This single key works for Ethereum, Polygon, and BSC (via Etherscan Multichain API support).
 
 ### 4. Start the App
 ```bash
