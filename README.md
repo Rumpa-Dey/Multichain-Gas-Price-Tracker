@@ -44,7 +44,7 @@ Gas prices on Ethereum and other EVM-based blockchains vary depending on network
 
 ## 🖼️ Screenshots
 
-![Gas Price](screenshorts/multichain.png)
+![Gas Price](screenshots/multichain.png)
 
 ---
 
