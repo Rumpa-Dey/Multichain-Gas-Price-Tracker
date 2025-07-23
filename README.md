@@ -62,7 +62,7 @@ Gas prices on Ethereum and other EVM-based blockchains vary depending on network
 
 multichain-gas-tracker/
 ├── public/
-│ └── logos/
+│ └── Logos/
 │ ├── ethereum.png               # Ethereum logo image
 │ ├── polygon.png                # Polygon logo image
 │ └── bsc.png                    # Binance Smart Chain logo image
